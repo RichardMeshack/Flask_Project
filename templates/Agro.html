@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroconnect</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/Agro.css')}}">
+</head>
+<body>
+    <div class="landing" id="home">
+        <header>
+            <img src="{{url_for('static', filename='images/logo2.png')}}" alt="logo">
+            <input type="text" placeholder="search.." name="search">
+            <button type="submit" name="submit">Submit</button>
+            <nav>
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About Us</a></li>
+                    <li><a href="{{url_for('services')}}">Service</a></li>
+                    <li><a href="{{url_for('contact')}}">Contact Us</a></li>
+                    <li><a href="#blog" style="padding-right: 20px;">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="center">
+            <div class="text">
+                <h1>AGRO-CONNECT </h1>
+                <p>A PLATFORM TO</p>
+                <ul>
+                    <li>Connect.</li>
+                    <li>Buy and sell Agro product.</li>
+                    <li>Share information and resources.</li>
+                    <li>Get update on latest news and vacancy.</li>
+                    <li>Find solution to Agro problems.</li>
+                </ul>
+                <p>Visit our platform by signing up or login if you already have an account:</p>
+                <input type="submit" value="LOGIN">
+                <input type="submit" value="SIGN UP">
+            </div>
+            <div class="show">
+                <img src="{{url_for('static', filename='images/produce1.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/produce2.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/produce3.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/produce4')}}" alt="">
+                <img src="{{url_for('static', filename='images/produce5.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/flower.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/supply1.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/solution1.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/agritech.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/supply3.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect3.png')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect4.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect7.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect8.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/machine2.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/solution3.jpg')}}" alt="">
+                <p><a href="">SHOW MORE...</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about-us">
+            <h1 class="heading">
+                ABOUT US
+            </h1>
+            <p><b>AGRO-CONNECT</b> is a platform that is aim at improving the productivity in the agricultural
+                sector through the following:
+            </p>
+            <ul>
+                <li>
+                    Connecting farmers across the globe to share ideas on latest improvement in the agro 
+                    sector, and also to solve challanges affecting the agricultural sector together.
+                </li>
+                <li>
+                    To also connect farmer and consumer for easy access of farm product.
+                </li>
+                <li>
+                    Updates on latest new and invention in the agro space. And also allowing farmers to advertise 
+                    their product.
+                </li>
+                <li>
+                    Creation of job oppurtunity by connecting farmer and labourers.
+                </li>
+            </ul>
+            <h1>AIM:</h1>
+            <blockquote>
+                To improve productivity and consumption in the agricultural sector both locally and globally.
+            </blockquote>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h1 class="main">SERVICES</h1>
+        <div class="boxes">
+            <div class="service1">
+                <h1 id="h1">CONNECT FARMERS AND CONSUMERS
+                    TO SHARE UPDATE AND SOLUTION TO PROBLEM</h1>
+
+             <div class="box">
+                <img src="{{url_for('static', filename='images/connect3.png')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect6.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect7.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect8.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/farm2.jpeg')}}" alt="">
+                <img src="{{url_for('static', filename='images/solution2.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect1.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect3.png')}}" alt="">
+                <img src="{{url_for('static', filename='images/connect4.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/solution4.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/solution2.jpg')}}" alt="">
+                <img src="{{url_for('static', filename='images/agritech.jpg')}}" alt="">
+                <input type="submit" value="VISIT.." name="visit1">
+
+        </div>
+        </div>
+        <div class="service2">
+            <h1 id="h2">
+                BUYING AND SELLING OF FARM PRODUCT AND MACHINARIES
+            </h1>
+        
+        <div class="box">
+            <img src="{{url_for('static', filename='images/supply1.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/produce9.jpg.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/produce6.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/supply2.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/supply3.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/produce3.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/machine1')}}" alt="">
+            <img src="{{url_for('static', filename='images/machine2.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/machine3.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/machine4.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/machine5.jpg')}}" alt="">
+            <img src="{{url_for('static', filename='images/solution1.jpg')}}" alt="">
+            <input type="submit" value="VISIT.." name="visit2">
+        </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="Contact-us">
+        <h1>CONTACT US</h1>
+        <h3 class="small" style="text-align: center;">LEAVE A MESSAGE</h3>
+        <form action="#" method="post" class="contact">
+            <input type="text" name="name" class="input" placeholder="Enter your name"><br>
+            <input type="email" name="email" class="input" placeholder="Enter your email"><br>
+            <textarea name="massage" id="massage" cols="30" rows="15" placeholder="Enter your massage"></textarea><br>
+            <input type="submit" id="submit" value="submit" class="submit" name="submit"><br>
+        </form>
+        <footer id="blog">
+            <img src="{{url_for('static', filename='images/facebook.png')}}" alt="">
+            <img src="{{url_for('static', filename='images/instagram.png')}}" alt="">
+            <img src="{{url_for('static', filename='images/linkin.png')}}" alt="">
+            <img src="{{url_for('static', filename='images/twitter.png')}}" alt="">
+            <img src="{{url_for('static', filename='images/whatsapp.png')}}" alt="">
+            <img src="{{url_for('static', filename='images/youtube.png')}}" alt="">
+        </footer>
+    </div>
+</body>
+</html>

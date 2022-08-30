@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% extends "base.html"%}
+    {% block title %}{% endblock %}
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/Agro.css')}}">
+</head>
+<body>
+    {% block content%}
+    <div id="about">
+        <div class="about-us">
+            <h1 class="heading">
+                ABOUT US
+            </h1>
+            <p><b>AGRO-CONNECT</b> is a platform that is aim at improving the productivity in the agricultural
+                sector through the following:
+            </p>
+            <ul>
+                <li>
+                    Connecting farmers across the globe to share ideas on latest improvement in the agro 
+                    sector, and also to solve challanges affecting the agricultural sector together.
+                </li>
+                <li>
+                    To also connect farmer and consumer for easy access of farm product.
+                </li>
+                <li>
+                    Updates on latest new and invention in the agro space. And also allowing farmers to advertise 
+                    their product.
+                </li>
+                <li>
+                    Creation of job oppurtunity by connecting farmer and labourers.
+                </li>
+            </ul>
+            <h1>AIM:</h1>
+            <blockquote>
+                To improve productivity and consumption in the agricultural sector both locally and globally.
+            </blockquote>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
